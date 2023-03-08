@@ -1,2 +1,5 @@
-* [Home](/)
-* [Guide](guide.md "The greatest guide in the world")
+* [Home](/ "GuideProtocol - Guide for BrokeProtocol modding")
+* [Unity Starting](unitystarting.md "GuideProtocol - Starting with Unity")
+* [Plugin Starting](pluginstarting.md "GuideProtocol - Starting with Plugin")
+* [First Commands](firstcommands.md "GuideProtocol - Our first commands")
+* [Plugin Events](pluginevents.md "GuideProtocol - Events")
