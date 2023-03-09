@@ -1,5 +1,11 @@
+GuideProtocol
 * [Home](/ "GuideProtocol - Guide for BrokeProtocol modding")
 * [Unity Starting](unitystarting.md "GuideProtocol - Starting with Unity")
 * [Plugin Starting](pluginstarting.md "GuideProtocol - Starting with Plugin")
 * [First Commands](firstcommands.md "GuideProtocol - Our first commands")
 * [Plugin Events](pluginevents.md "GuideProtocol - Events")
+* [Unity Animations](unityanimations.md "GuideProtocol - Unity Animations")
+* [Entity Collections](entitycollections.md "GuideProtocol - Unity Animations")
+* [Project examples](projectexamples.md "GuideProtocol - Project examples")
+* [Host a server](hostserver.md "GuideProtocol - How to host a server")
+* [API Reference](https://brokeprotocol.com/api/index.html)

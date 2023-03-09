@@ -7,6 +7,13 @@
 
 ![](src/USProject.png)
 
+## You may have to install this
+You need to install NewtonsoftJson and InputSystem, if you don't have it, follow the steps:
+- Go to Windows>Package Manager And select Unity Registry in packages.
+- Then install the following packages `com.unity.nuget.newtonsoft-json` and `InputSystem`
+
+[](src/IssueUnity.mp4 ':include :type=video controls width=100%')
+
 - The first thing we have to do it's import the BPResources package from the game directory. Assets>Import Package>Custom Package.
 
 ![](src/USImport.png)

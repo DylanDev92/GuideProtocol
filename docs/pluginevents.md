@@ -125,3 +125,21 @@
 - `override bool Damage (ShDamageable damageable, DamageIndex damageIndex, float amount, ShPlayer attacker, Collider collider, Vector3 source, Vector3 hitPoint)`
 - `override bool Death (ShDestroyable destroyable, ShPlayer attacker)`
 - `virtual bool UpdateTextDisplay (ShPlayer player, ShTextDisplay textDisplay)`
+
+# How to use events
+First we have to make another class, in this class we're going to inherit the EventClass we want to use, in this case I'll show you the event `Deposit` of `PlayerEvents`, acording to the methods of above we have to use `virtual bool Deposit (ShPlayer player, int entityID, int amount)`, and the execution of that event will be `[Execution(ExecutionMode.Event)]`
+
+[](src/PlayerEvents.mp4 ':include :type=video controls width=100%')
+
+This code sends a message to all the players when a player deposit its money.
+```cs
+public class PlayerEventsGuide : PlayerEvents
+{
+    [Execution(ExecutionMode.Event)]
+    public override bool Deposit(ShPlayer player, int entityID, int amount)
+    {
+        InterfaceHandler.SendGameMessageToAll(player.username + " has deposited " + amount);
+        return true;
+    }
+}
+```
