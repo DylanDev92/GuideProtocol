@@ -10,6 +10,7 @@ GuideProtocol
 * [Toggle Animations](toggleanimations.md "GuideProtocol - Toggle Animations")
 * [Option/Input Menus](optioninputmenus.md "GuideProtocol - Option/Input Menus")
 * [Get/Use Entities](getuseentities.md "GuideProtocol - Get/Use Entities")
+* [Use Coroutines](usecoroutines.md "GuideProtocol - Use Coroutines")
 * [Make Clothes](makeclothes.md "GuideProtocol - Make Clothes")
 * [Use Database](usedatabase.md "GuideProtocol - Use Database")
 * [Use JSON](usejson.md "GuideProtocol - Use JSON")
