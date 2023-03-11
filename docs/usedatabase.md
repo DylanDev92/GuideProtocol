@@ -2,10 +2,14 @@
 First of all, the database is located in:
 - Windows: `C:\Users\YourName\AppData\LocalLow\CylinderStudios\BrokeProtocol`
 - Linux: `.config/BrokeProtocol`
+- In hosting services this may vary.
 
 Use [LiteDB](https://www.litedb.org/) reading the databases that are in there.
 
 [](src/Database.mp4 ':include :type=video controls width=100%')
+
+# Backup or delete database
+Go to where your database is located, if you want to reset/delete your database just simply delete the file, in case of backup just download or copy the database and whenever you want just use it.
 
 # Interacting in Plugin
 You can interact with the information of the database in code, get, update and maybe delete data. Remember to import `Lite.DB` in your references before starting.
