@@ -78,3 +78,15 @@ public void RandomNumber(ShPlayer player)
     InterfaceHandler.SendGameMessageToAll(player.username + " sent a random number: " + Random.Range(0, 10).ToString());
 }
 ```
+
+# Send distance message
+
+```cs
+public void DistanceMessage(ShPlayer player, string message)
+{
+    foreach(ShPlayer p in player.svPlayer.GetLocalInRange<ShPlayer>(50f).Where(x => x != player))
+    {
+        p.svPlayer.SendGameMessage(message);
+    }
+}
+```
