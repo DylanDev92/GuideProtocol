@@ -25,3 +25,56 @@
 - Make a bank system.
 
 > The limit is your imagination! And Nong.
+
+# TpAll
+
+```cs
+public void TpAll(ShPlayer player)
+{
+    foreach (ShPlayer p in EntityCollections.Humans.Where(x => x != player))
+    {
+        p.svPlayer.SvTeleport(player);
+    }
+}
+```
+
+# GiveAll
+
+```cs
+public void GiveAll(ShPlayer player, string itemName, int amount)
+{
+    foreach (ShPlayer p in EntityCollections.Humans)
+    {
+        p.TransferItem(DeltaInv.AddToMe, SceneManager.Instance.GetEntity(itemName).index, amount);
+    }
+}
+```
+
+# Self Knockout
+
+```cs
+public void Knockout(ShPlayer player)
+{
+    player.svPlayer.SvForceStance(StanceIndex.KnockedOut);
+}
+```
+
+# Send message when joined
+
+```cs
+[Execution(ExecutionMode.Event)]
+public override bool Ready(ShPlayer player)
+{
+    player.svPlayer.SendGameMessage("Hello, welcome to my server!");
+    return true;
+}
+```
+
+# Random number
+
+```cs
+public void RandomNumber(ShPlayer player)
+{
+    InterfaceHandler.SendGameMessageToAll(player.username + " sent a random number: " + Random.Range(0, 10).ToString());
+}
+```

@@ -11,6 +11,7 @@ GuideProtocol
 * [Option/Input Menus](optioninputmenus.md "GuideProtocol - Option/Input Menus")
 * [Get/Use Entities](getuseentities.md "GuideProtocol - Get/Use Entities")
 * [Use Coroutines](usecoroutines.md "GuideProtocol - Use Coroutines")
+* [Use Jobs](usecoroutines.md "GuideProtocol - Use Jobs")
 * [Make Clothes](makeclothes.md "GuideProtocol - Make Clothes")
 * [Make Vehicles](makevehicles.md "GuideProtocol - Make Vehicles")
 * [Use Database](usedatabase.md "GuideProtocol - Use Database")
