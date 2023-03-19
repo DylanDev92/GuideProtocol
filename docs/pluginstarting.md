@@ -62,3 +62,5 @@ public class Example : IScript
     }
 }
 ```
+
+Use the [GameSource](https://github.com/broke-protocol/broke-protocol) to read the code and learn about it.
