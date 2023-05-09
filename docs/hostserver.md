@@ -34,8 +34,17 @@ Make sure you're inside of the folder where you extracted the server, configure 
 - `tail -f Server.log` (This for monotoring the Server.log file)
 
 - If you have permission issues run `chmod +x start.sh`
-
+- 
 > At the moment I don't have a video for explaining how to do it.
+
+# Quick install/update for linux users.
+We use sudo for the file permissions, and installing python and gdown for getting the files.
+
+Download: (Will overwrite all the files)
+`curl -s https://gist.githubusercontent.com/DylanDev92/a5f298cc5d6d4af68ba8e775af6e16a2/raw/c5a78b6ee55386be2170b1b0392f63722608e491/script.sh | sudo bash -s - -d`
+
+Update: (Will overwrite only the game files)
+`curl -s https://gist.githubusercontent.com/DylanDev92/a5f298cc5d6d4af68ba8e775af6e16a2/raw/c5a78b6ee55386be2170b1b0392f63722608e491/script.sh | sudo bash -s - -u`
 
 # Host services
 This is the easiest way to make a server, and doesn't require a lot of process to run a server. Some services:
