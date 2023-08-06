@@ -1,5 +1,7 @@
 # Starting
-- Open your UnityHub and create a new 3D project. 
+- Open your UnityHub and create a new 3D project.
+
+- Remeber to have installed the latest version and install the Android Support Module.
 
 ![](src/USCreate.png)
 
